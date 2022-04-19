@@ -10,6 +10,10 @@ app.get('/msg',function(req,res){
     res.send("Está mensagem é automática!")
 })
 
+app.get('/sobre',function(req,res){
+    res.send("Está página está sendo desenvolvida por Marcos Gabriel!")
+})
+
 app.listen(3000,function(){
     console.log("Conexão inicializada")
 })
