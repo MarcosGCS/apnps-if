@@ -13,6 +13,9 @@ app.get('/msg',function(req,res){
 app.get('/sobre',function(req,res){
     res.send("Está página está sendo desenvolvida por Marcos Gabriel!")
 })
+    app.get('/layout',function(req,res){
+    res.send("Este é o novo layout!")
+})
 
 app.listen(3000,function(){
     console.log("Conexão inicializada")
