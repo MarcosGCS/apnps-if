@@ -18,7 +18,7 @@ app.get('/',function(req,res){
     res.render('index.ejs',{})
 })
 
-app.get('/usarios',function(req,res){
+app.get('/usuarios',function(req,res){
     res.render('usuarios.ejs',{usuarios:[
         {nome:'Diego',email:'marcos@gmail.com'},
         {nome:'Ash',email:'ash@gmail.com'},
