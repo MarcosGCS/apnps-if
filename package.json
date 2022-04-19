@@ -1,0 +1,22 @@
+{
+  "name": "sistema-web",
+  "version": "1.0.0",
+  "description": "Sistema web para gerenciamento de APNPS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcosGCS/apnps-if.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcosGCS/apnps-if/issues"
+  },
+  "homepage": "https://github.com/MarcosGCS/apnps-if#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
